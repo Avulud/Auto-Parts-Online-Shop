@@ -5,3 +5,4 @@ document.querySelector('#show').onclick = function() {
 document.querySelector('#close').onclick = function() {
   dialog.close();
 };
+

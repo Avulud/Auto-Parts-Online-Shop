@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/search-menu.css">
     <title>Document</title>
 </head>
 
@@ -59,7 +60,7 @@
                 </ul>
             </div>
         </nav>
-        <div class="search-main">
+        <div class="search-main" id="search-main">
             <form class="search-form">
                 <div class="form-group">
                     <select class="form-control" id="exampleFormControlSelect1">
@@ -107,11 +108,10 @@
                 <option>Стойки</option>
               </select>
                 </div>
-                <button type="submit" class="btn btn-primary">Поиск</button>
+                <button type="submit" class="btn btn-primary form-group">Поиск</button>
             </form>
-            <a href=# class="search-toogle">^</a>
         </div>
-
+        <a href=# class="search-toogle" id="search-toogle">^</a>
     </header>
     <main>
         <section class="products_main" style="display: flex;">
@@ -142,6 +142,7 @@
     <script src="js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/search-menu.js"></script>
 </body>
 
 </html>
