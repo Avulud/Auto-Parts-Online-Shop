@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light  " style="background-color:sandybrown;">
@@ -15,77 +17,78 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <dialog>
-                      <p>Contacts</p>
-                      <button id="close">Close</button>
-                  </dialog>
-                  <a class="nav-link" href="#" id="show">Контакты</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about_us.html">О нас</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="news.html">Новости</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="faq">FAQ</a>
-                  </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="parts.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <ul class="navbar-nav ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <dialog>
+                            <p>Contacts</p>
+                            <button id="close">Close</button>
+                        </dialog>
+                        <a class="nav-link" href="#" id="show">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq">FAQ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="parts.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Товары
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="parts.html#body_parts">Кузовные детали</a>
-                    <a class="dropdown-item" href="parts.html#saloon_parts">Салон</a>
-                    <a class="dropdown-item" href="parts.html#suspension_parts">Подвеска</a>
-                    <a class="dropdown-item" href="parts.html#engine_parts">Двигатель</a>
-                    <a class="dropdown-item" href="parts.html#consumables_parts">Расходники</a>    
-                    <a class="dropdown-item" href="parts.html#accessories_parts">Акссесуары</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#korzina"><img src="img/korzina.jpeg" alt="korzina" style="height:30px;width:30px;"></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#search"><img src="img/search.jpeg" alt="search" style="height:30px;width:30px;"></a>
-                </li>
-              </ul>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="parts.html#body_parts">Кузовные детали</a>
+                            <a class="dropdown-item" href="parts.html#saloon_parts">Салон</a>
+                            <a class="dropdown-item" href="parts.html#suspension_parts">Подвеска</a>
+                            <a class="dropdown-item" href="parts.html#engine_parts">Двигатель</a>
+                            <a class="dropdown-item" href="parts.html#consumables_parts">Расходники</a>
+                            <a class="dropdown-item" href="parts.html#accessories_parts">Акссесуары</a>
+                        </div>
+                    </li>
+                    <li class="nav-item korzina">
+                        <a class="nav-link" href="#korzina"><img src="img/korzina.png" alt="korzina" style="height:30px;width:30px;"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#search"><img src="img/search.png" alt="search" style="height:30px;width:30px;"></a>
+                    </li>
+                </ul>
             </div>
         </nav>
         <div class="search-main">
-          <form style="display: flex; justify-content: space-around; border: black; border-width: 1px; border-style:solid;">
-            <div class="form-group">
-              <select class="form-control" id="exampleFormControlSelect1">
+            <form class="search-form">
+                <div class="form-group">
+                    <select class="form-control" id="exampleFormControlSelect1">
                 <option>Марка</option>
                 <option>Daewoo</option>
                 <option>Masserati</option>
                 <option>Ferarri</option>
                 <option>Nissan</option>
               </select>
-            </div>
-            <div class="form-group">
-              <select class="form-control" id="exampleFormControlSelect1">
+                </div>
+                <div class="form-group">
+                    <select class="form-control" id="exampleFormControlSelect1">
                 <option>Модель</option>
                 <option>Lanos</option>
                 <option>Tiko</option>
                 <option>Nubira</option>
                 <option>Matiz</option>
               </select>
-            </div>
-            <div class="form-group">
-              <select class="form-control" id="exampleFormControlSelect1">
+                </div>
+                <div class="form-group">
+                    <select class="form-control" id="exampleFormControlSelect1">
                 <option>Год</option>
                 <option>1960</option>
                 <option>1961</option>
                 <option>...</option>
               </select>
-            </div><div class="form-group">
-              <select class="form-control" id="exampleFormControlSelect1">
+                </div>
+                <div class="form-group">
+                    <select class="form-control" id="exampleFormControlSelect1">
                 <option>Категория</option>
                 <option>Кузовные детали</option>
                 <option>Двигатель</option>
@@ -94,47 +97,51 @@
                 <option>Расходники</option>
                 <option>Акссесуары</option>
               </select>
-            </div><div class="form-group">
-              <select class="form-control" id="exampleFormControlSelect1">
+                </div>
+                <div class="form-group">
+                    <select class="form-control" id="exampleFormControlSelect1">
                 <option>Запчасть</option>
                 <option>Колеса</option>
                 <option>Пружины</option>
                 <option>Тормозные колодки</option>
                 <option>Стойки</option>
               </select>
-            </div>
-            <button type="submit" class="btn btn-primary">Поиск</button>
-          </form>
+                </div>
+                <button type="submit" class="btn btn-primary">Поиск</button>
+            </form>
+            <a href=# class="search-toogle">^</a>
         </div>
+
     </header>
     <main>
-      <section class="products_main" style="display: flex;">
-        <div>
-          <a href="#"><img src="img/engine" alt="engine"></a>
-        </div>
-        <div>
-          <a href="#"><img src="img/suspension" alt="suspension"></a>
-        </div>
-        <div>
-          <a href="#"><img src="img/bodyparts" alt="bodyparts"></a>
-        </div>
-        <div>
-          <a href="#"><img src="img/accesores" alt="accesores"></a>
-        </div>
-        <div>
-          <a href="#"><img src="img/interier" alt="interier"></a>
-        </div>
-        <div>
-          <a href="#"><img src="img/consumables" alt="consumables"></a>
-        </div>
-        <div>
-          <a href="#"><img src="img/other" alt="other"></a>
-        </div>
-      </section>
+        <section class="products_main" style="display: flex;">
+            <div>
+                <a href="#"><img src="img/engine" alt="engine"></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/suspension" alt="suspension"></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/bodyparts" alt="bodyparts"></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/accesores" alt="accesores"></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/interier" alt="interier"></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/consumables" alt="consumables"></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/other" alt="other"></a>
+            </div>
+        </section>
     </main>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
 </body>
+
 </html>
