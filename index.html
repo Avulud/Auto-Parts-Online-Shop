@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/search-menu.css">
+    <link rel="stylesheet" href="css/products-main.css">
     <title>Document</title>
 </head>
 
@@ -114,26 +115,29 @@
         <a href=# class="search-toogle" id="search-toogle">^</a>
     </header>
     <main>
-        <section class="products_main" style="display: flex;">
-            <div>
-                <a href="#"><img src="img/engine" alt="engine"></a>
+        <section class="products_main" id="products-main">
+            <div class="column-img" id="goods-1">
+                <a href=# class="goods-name" id="goods-name">Двигатель</a>
+                <p class="goods-description" id="goods-description">Основная часть автомобиля это - двигатель и он соответственно требует особого внимания подберите запчасть в нашем каталоге </p>    
+                <a href=# class="goods-toogle" id="goods-toogle">Подробнее...</a>
+                    
             </div>
-            <div>
+            <div class="row-img" id="goods-2">
                 <a href="#"><img src="img/suspension" alt="suspension"></a>
             </div>
-            <div>
+            <div class="row-img" id="goods-3">
                 <a href="#"><img src="img/bodyparts" alt="bodyparts"></a>
             </div>
-            <div>
+            <div class="column-img"id="goods-4">
                 <a href="#"><img src="img/accesores" alt="accesores"></a>
             </div>
-            <div>
-                <a href="#"><img src="img/interier" alt="interier"></a>
+            <div class="row-img" id="goods-5">
+                <a href="#"><img src="img/interior" alt="interier"></a>
             </div>
-            <div>
+            <div class="row-img" id="goods-6">
                 <a href="#"><img src="img/consumables" alt="consumables"></a>
             </div>
-            <div>
+            <div class="column-img" id="goods-7">
                 <a href="#"><img src="img/other" alt="other"></a>
             </div>
         </section>
@@ -143,6 +147,7 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
     <script src="js/search-menu.js"></script>
+    <script src="js/goods.js"></script>
 </body>
 
 </html>

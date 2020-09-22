@@ -1,0 +1,121 @@
+:root{
+    --bg-color-nav:sandybrown;
+    --bg-color-text:rgb(221, 177, 138);
+    --box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    --box-shadow-rotate: -0.4em -0.4em -5px rgba(122,122,122,0.5)
+}
+.products_main{
+    display: grid;
+    grid-template: 1fr 1fr/1fr 2fr 1fr 2fr 1fr;
+    width: 100%;
+    margin-top: 40px;
+    transition: transform 0.2s ease;
+    transition-delay: 0.3s;
+}
+#products-main.active{
+    transform: translateY(-64px);
+}
+.column-img{
+    margin:5px 5px 5px 5px;
+    background-color:var(--bg-color-nav);
+    border-radius: 10px;
+    height: 400px;
+}
+.row-img{
+    background-color: var(--bg-color-nav);
+    border-radius: 10px;
+    margin:5px 5px 5px 5px;
+}
+
+#goods-1{
+    grid-area: 1/1/3/2;
+    background-image: url(/img/enginee.jpg);
+    position: relative;
+}
+.goods-description{
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s opacity, .3s visibility;
+    position: relative;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    width: 100%;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    background-color: var(--bg-color-text);
+    color: black;
+    padding-top: 5px;
+}
+.goods-description.active{
+    visibility: visible;
+    opacity: 1;
+}
+.goods-name{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(244,164,96,0.66);
+    padding: 3px;
+    color:black;
+    transition: font-size 0.3s ease-in-out;
+    transition: transform 0.6s ease-in-out; 
+}
+.goods-name:hover{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.goods-name.active{
+    transform: translate(-50%,-150px);
+}
+.goods-toogle{
+    position: absolute;
+    bottom:0%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--bg-color-nav);
+    color: black;
+    transition: font-size 0.3s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+}
+
+.goods-toogle:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.goods-toogle.active{
+    transform: translate(-50%,-213px);
+}
+
+#goods-2{
+    grid-area: 1/2/1/3;
+}
+#goods-3{
+    grid-area: 2/2/3/3;
+}
+
+#goods-4{
+    grid-area: 1/3/3/4;
+}
+
+#goods-5{
+    grid-area: 1/4/2/5;
+}
+
+#goods-6{
+    grid-area: 2/4/3/5;
+}
+
+#goods-7{
+    grid-area: 1/5/3/6;
+}
