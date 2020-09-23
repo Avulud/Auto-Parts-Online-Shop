@@ -30,18 +30,21 @@
     text-decoration: none;
     color: black;
     background-color: var(--bg-color-nav);
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     position: absolute;
-    transition: transform 0.5s ease-in-out ;
+    transition: transform 0.4s ease-in-out ;
+    transition-delay: 0.2487s;
     box-shadow: var(--box-shadow);
 }
 .search-main.active {
-        transform: translateX(-200%);
+        transform: translateY(-200%);
+        
+        
 }
 .search-toogle.active {
-    transform: translateY(-409%) rotate(180deg);
-    box-shadow: var(--box-shadow-rotate);
-    border-radius: 5px 5px 0px 0px; 
+    transform: translateY(-409%);
+    transition: transform 0.35s ease-in-out;
+    
 }
 .search-toogle:hover {
     position:absolute;

@@ -17,3 +17,6 @@
         margin-right:  10px;
     }
     
+    #grid{
+        grid-template: repeat(1fr,10)/repeat(1fr,10);
+    }
