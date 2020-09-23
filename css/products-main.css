@@ -30,7 +30,7 @@
 
 #goods-1{
     grid-area: 1/1/3/2;
-    background-image: url(/img/enginee.jpg);
+    background-image: url(https://github.com/Avulud/Auto-Parts-Online-Shop/blob/gh-pages/img/enginee.jpg);
     position: relative;
 }
 .goods-description-1{
@@ -101,7 +101,7 @@
 
 #goods-2{
     grid-area: 1/2/1/3;
-    background-image: url(/img/suspension1.jpg);
+    background-image: url(https://github.com/Avulud/Auto-Parts-Online-Shop/blob/gh-pages/img/suspension1.jpg);
     position: relative;
 }
 
@@ -170,32 +170,32 @@
 }
 #goods-3{
     grid-area: 2/2/3/3;
-    background-image: url(/img/bodyparts1.jpg);
+    background-image: url(https://github.com/Avulud/Auto-Parts-Online-Shop/blob/gh-pages/img/bodyparts1.jpg);
     position: relative;
 }
 
 #goods-4{
     grid-area: 1/3/3/4;
-    background-image: url(/img/accesores.jpg);
+    background-image: url(https://github.com/Avulud/Auto-Parts-Online-Shop/blob/gh-pages/img/accesores.jpg);
     position: relative;
 }
 
 
 #goods-5{
     grid-area: 1/4/2/5;    
-    background-image: url(/img/interior.jpg);
+    background-image: url(https://github.com/Avulud/Auto-Parts-Online-Shop/blob/gh-pages/img/interior.jpg);
     position: relative;
 }
 
 #goods-6{
     grid-area: 2/4/3/5;
-    background-image: url(/img/consumables.jpg);
+    background-image: url(https://github.com/Avulud/Auto-Parts-Online-Shop/blob/gh-pages/img/consumables.jpg);
     position: relative;
 }
 
 #goods-7{
     grid-area: 1/5/3/6;    
-    background-image: url(/img/other.jpg);
+    background-image: url(https://github.com/Avulud/Auto-Parts-Online-Shop/blob/gh-pages/img/other.jpg);
     position: relative;
 }
 #goods-7>.goods-toogle-1.active{
